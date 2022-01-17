@@ -72,6 +72,7 @@ jobs:
           CONFIG_PACKAGE_6in4=y
           # CONFIG_PACKAGE_UnblockNeteaseMusic-Go is not set
           # CONFIG_PACKAGE_adbyby is not set
+          CONFIG_PACKAGE_adguardhome=y
           # CONFIG_PACKAGE_antfs-mount is not set
           CONFIG_PACKAGE_blkid=y
           CONFIG_PACKAGE_boost=y
@@ -82,7 +83,6 @@ jobs:
           CONFIG_PACKAGE_coreutils-nohup=y
           # CONFIG_PACKAGE_etherwake is not set
           CONFIG_PACKAGE_haproxy=y
-          CONFIG_PACKAGE_ikoolproxy=y
           CONFIG_PACKAGE_ip6tables=y
           CONFIG_PACKAGE_ip6tables-extra=y
           CONFIG_PACKAGE_ip6tables-mod-nat=y
@@ -92,7 +92,6 @@ jobs:
           CONFIG_PACKAGE_iptables-mod-ipopt=y
           CONFIG_PACKAGE_iptables-mod-iprange=y
           # CONFIG_PACKAGE_iptables-mod-ipsec is not set
-          CONFIG_PACKAGE_iptables-mod-nat-extra=y
           CONFIG_PACKAGE_ipv6helper=y
           # CONFIG_PACKAGE_kmod-crypto-cbc is not set
           # CONFIG_PACKAGE_kmod-crypto-deflate is not set
@@ -111,7 +110,6 @@ jobs:
           CONFIG_PACKAGE_kmod-ipt-ipopt=y
           CONFIG_PACKAGE_kmod-ipt-iprange=y
           # CONFIG_PACKAGE_kmod-ipt-ipsec is not set
-          CONFIG_PACKAGE_kmod-ipt-nat-extra=y
           CONFIG_PACKAGE_kmod-ipt-nat6=y
           CONFIG_PACKAGE_kmod-iptunnel=y
           # CONFIG_PACKAGE_kmod-iptunnel6 is not set
@@ -140,7 +138,7 @@ jobs:
           CONFIG_PACKAGE_lsblk=y
           # CONFIG_PACKAGE_luci-app-accesscontrol is not set
           # CONFIG_PACKAGE_luci-app-adbyby-plus is not set
-          # CONFIG_PACKAGE_luci-app-adguardhome_INCLUDE_binary is not set
+          CONFIG_PACKAGE_luci-app-adguardhome=y
           CONFIG_PACKAGE_luci-app-advanced=y
           # CONFIG_PACKAGE_luci-app-arpbind is not set
           # CONFIG_PACKAGE_luci-app-autoreboot is not set
@@ -156,7 +154,6 @@ jobs:
           # CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Xray is not set
           CONFIG_PACKAGE_luci-app-diag-core=y
           CONFIG_PACKAGE_luci-app-diskman=y
-          CONFIG_PACKAGE_luci-app-ikoolproxy=y
           # CONFIG_PACKAGE_luci-app-ipsec-vpnd is not set
           CONFIG_PACKAGE_luci-app-mwan3=y
           CONFIG_PACKAGE_luci-app-netdata=y
@@ -188,6 +185,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-xlnetacc is not set
           # CONFIG_PACKAGE_luci-app-zerotier is not set
           CONFIG_PACKAGE_luci-compat=y
+          CONFIG_PACKAGE_luci-i18n-adguardhome-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-diag-core-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-diskman-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-mwan3-zh-cn=y
