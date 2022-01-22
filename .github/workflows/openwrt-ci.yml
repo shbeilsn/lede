@@ -177,7 +177,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-uugamebooster=y
           # CONFIG_PACKAGE_luci-app-vsftpd is not set
           CONFIG_PACKAGE_luci-app-vssr_INCLUDE_ShadowsocksR_Libev_Server
-          # CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Trojan is not set
+          CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Trojan is not set
           # CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Xray is not set
           # CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Xray_plugin is not set
           # CONFIG_PACKAGE_luci-app-wireguard is not set
